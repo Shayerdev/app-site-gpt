@@ -1,0 +1,14 @@
+.main_header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 25px;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    min-height: 90px;
+}

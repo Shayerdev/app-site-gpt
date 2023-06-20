@@ -1,0 +1,15 @@
+.icon{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap:  15px;
+}
+.icon img{
+    border-radius: 100%;
+}
+.dark{
+    background: #000;
+    color: #fff;
+}

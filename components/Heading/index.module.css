@@ -1,0 +1,5 @@
+.h1{
+    font-size: var(--level-1-font-size);
+    line-height: var(--level-1-hght-size);
+    font-weight: 700;
+}

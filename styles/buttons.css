@@ -1,0 +1,19 @@
+.button_group{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    gap: var(--def-pad-space);
+}
+
+a.button{
+    padding:  14px 25px;
+    border-radius: 5px;
+}
+button.button{
+    padding:  14px 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}

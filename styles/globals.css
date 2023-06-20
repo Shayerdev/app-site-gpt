@@ -1,0 +1,50 @@
+@import "typography.css";
+@import "buttons.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-border-color: #eaeaea;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --big-pad-offset: 80px;
+  --def-pad-space: 15px;
+  --big-gap-offset: 25px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* Body offset */
+body{
+  padding-top:  100px;
+}
+
+
+/* Container */
+.container{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 var(--def-pad-space);
+}
+
+/*  Banner */
+.banner{
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: var(--big-gap-offset);
+  padding: var(--big-pad-offset) var(--def-pad-space);
+}

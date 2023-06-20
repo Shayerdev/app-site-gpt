@@ -1,0 +1,14 @@
+.big{
+    font-size: var(--big-font-size);
+    line-height: var(--big-hght-size);
+}
+
+.mid{
+    font-size: var(--mid-font-size);
+    line-height: var(--mid-hght-size);
+}
+
+.sml{
+    font-size: var(--sml-font-size);
+    line-height: var(--sml-hght-size);
+}
